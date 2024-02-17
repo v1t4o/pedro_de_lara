@@ -17,11 +17,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/clients/:id/extrato', function () {
-    return view('welcome');
-});
-
-Route::post('/clients/:id/transacoes', function () {
-    return view('welcome');
-});
-
